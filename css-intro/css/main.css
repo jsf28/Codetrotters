@@ -1,0 +1,14 @@
+.center {
+  width: 70%;
+  margin: auto;
+}
+
+.sidebar-left {
+  width: 50%;
+  float: left;
+}
+
+.sidebar-right {
+  width: 50%;
+  float: left;
+}
