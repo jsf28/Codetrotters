@@ -1,6 +1,8 @@
 .center {
   width: 70%;
   margin: auto;
+  background-color: white;
+  height: 520px;
 }
 
 .sidebar-left {
@@ -10,5 +12,39 @@
 
 .sidebar-right {
   width: 50%;
+  float: left;
+}
+
+.about-me {
+  margin: auto;
+}
+
+.footer {
+  clear: both;
+  background-color: #d3d3d3;
+
+}
+
+body {
+  background-color: orange;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: gray;
+}
+
+h3 {
+  color: black;
+}
+
+ol {
+  list-style-type: lower-greek;
+}
+
+img {
   float: left;
 }
