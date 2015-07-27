@@ -55,16 +55,26 @@ body {
 	font-weight: bold;
 	margin-bottom: 10px;
 }
+
 .about-section {
 	overflow: hidden;
 	text-align: center;
 	height: 500px;
 }
+
+.about-section h4 {
+	background-color: yellow;
+	padding: 15px 15px;
+	margin: 20px 550px;
+	left: 10px;
+}
+
 .about-section img {
-	margin-left: 120px;
+	margin-left: 130px;
 	width: 220px;
 	float:left;
 }
+
 .about-section h5 {
 	margin-left: -210px;
 	margin-top: 150px;
