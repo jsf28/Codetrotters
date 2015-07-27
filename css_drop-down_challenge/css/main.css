@@ -1,77 +1,95 @@
 body {
 	margin: 0 auto;
 }
-
 .nav-section {
 	background: black;
 	text-align: center;
 }
-
 .nav-section a {
 	color: #ddd;
 	font-weight: bold;
 	text-decoration: none;
 }
-
 .nav-bar {
 	margin: 0;
 	padding: 1em 0;
 	font-family: Impact;
 }
-
 .nav-bar li {
 	display: inline-block;
 	vertical-align: middle;
 	padding: 0 1.5%;
 }
-
 .nav-bar a:hover {
 	color: white;
 }
-
 .sub-nav {
 	display: none;
 }
-
 .main-section {
 	text-align: center;
 	padding-top: 1px;
 	background: #01B8CB;
 }
-
 .main-section h2 {
 	font-size: 20px;
-	padding-top: 48px;
+	margin: 30px auto;
 	font-family: Impact;
 }
-
 .main-section h1 {
 	font-size: 65px;
+	margin: 0 auto;
 	color: white;
 	font-family: Impact;
 }
-
 .main-section p {
 	color: white;
+	margin-top: 0;
+	font-size: 22px;
+	font-family: serif;
+	align-content: center;
 }
-
 .button {
 	color: black;
 	font-family: serif;
 	font-weight: bold;
+	margin-bottom: 10px;
 }
-
+.about-section {
+	overflow: hidden;
+	text-align: center;
+	height: 500px;
+}
+.about-section img {
+	margin-left: 120px;
+	width: 220px;
+	float:left;
+}
+.about-section h5 {
+	margin-left: -210px;
+	margin-top: 150px;
+	font-size: 19px;
+	width: 200px;
+	float: left;
+}
+.about-section p {
+	margin-left: -255px;
+	margin-top: 200px;
+	font-family: serif;
+	font-size: 20px;
+	color: #535b60;
+	width: 280px;
+	float: left;
+}
 .footer ul {
 	background-color: #EDF3F3;
 	text-align: center;
-	margin: auto;
+	margin: 0;
 }
-
 .footer li {
 	display: inline-block;
 	padding: 33px 28px 100px 30px;
 }
-
 .footer a {
 	color: #696969;
 	text-decoration: none;
