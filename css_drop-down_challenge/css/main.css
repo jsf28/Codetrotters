@@ -65,12 +65,13 @@ body {
 .about-section h4 {
 	background-color: yellow;
 	padding: 15px 15px;
-	margin: 20px 550px;
+	margin: 20px 530px;
 	left: 10px;
+	border: 1px solid black;
 }
 
 .about-section img {
-	margin-left: 130px;
+	margin-left: 125px;
 	width: 220px;
 	float:left;
 }
