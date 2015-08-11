@@ -9,10 +9,6 @@ h1, h2, h3, h4, h5, p, ul, li {
 	padding: 0;
 }
 
-.underline {
-	border-bottom: 1px solid gray;
-}
-
 .nav-section {
 	margin: 0;
 	background: black;
