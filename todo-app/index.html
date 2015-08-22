@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </head>
+  <body>
+      <div class="container">
+          <!--Header information-->
+          <div class="row"></div>
+            <div class="col-md-12">
+              <h1 class="text-center">Jadec's Todo List</h1>
+            </div>
+          <!--Form-->
+          <div class="row">
+            <div class="col-md-12">
+              <form id="todo-form" class="form-inline text-center">
+                    <div class="form-group">
+                      <label for="todo">Todo</label>
+                      <input type="text" class="form-control" id="todo" placeholder="Jane Doe">
+                    </div>
+                    <button type="submit" class="btn btn-default">Create</button>
+                  </form>
+                </div>
+          <!--Todo List-->
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="text-center">List</h3>
+              <ul id="todo-list"></ul>
+            </div>
+          </div>
+  </body>
+</html>
