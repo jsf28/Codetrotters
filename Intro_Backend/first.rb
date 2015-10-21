@@ -108,10 +108,25 @@
 # tell=gets.chomp
 # puts tell.upcase + "! You are fired!".upcase
 
-line_width = 80
+# line_width = 80
+#
+# puts "Table of Contents".center(line_width)
+# puts "=" * line_width
+# puts "Chapter 1: Get Started".ljust(line_width) + "Page 1".ljust(line_width)
+# puts "Chapter 2: All abouts cats".ljust(line_width) + "Page 3".ljust(line_width)
+# puts "Chapter 3: The parts of a bicycle".ljust(line_width) + "Page 4".ljust(line_width)
 
-puts "Table of Contents".center(line_width)
-puts "=" * line_width
-puts "Chapter 1: Get Started".ljust(line_width) + "Page 1".ljust(line_width)
-puts "Chapter 2: All abouts cats".ljust(line_width) + "Page 3".ljust(line_width)
-puts "Chapter 3: The parts of a bicycle".ljust(line_width) + "Page 4".ljust(line_width)
+puts "Hello, what's your name"
+name = gets.chomp
+puts "Hello, " + name
+if name == "Penguin"
+puts "That cant't be right? right?"
+puts "Are you sure? your name is " + name + "? (y for yes)"
+answer=gets.chomp
+if answer.upcase == "Y"
+  puts "Ok, " + name + " it is"
+else
+  puts "I knew, " + name + " coudn't be right"
+end
+else puts "Awesome name!"
+end
