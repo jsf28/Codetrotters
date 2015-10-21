@@ -1,7 +1,0 @@
-red
-green
-blue
-brown
-yellow
-purple
-orange
