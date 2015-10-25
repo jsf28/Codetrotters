@@ -84,10 +84,10 @@
 # puts "What is your last name?"
 # last= gets.chomp
 
-puts "What is your favorite number?"
-number = gets.chomp
-puts "Your favorite number is " + number
-puts "But your new favorite number is " + number + "1"
+# puts "What is your favorite number?"
+# number = gets.chomp
+# puts "Your favorite number is " + number
+# puts "But your new favorite number is " + number + "1"
 
 # puts "Hello World".reverse
 # puts "Hello World".length
@@ -129,4 +129,21 @@ puts "But your new favorite number is " + number + "1"
 #   puts "I knew, " + name + " coudn't be right"
 # end
 # else puts "Awesome name!"
+# end
+
+# puts "Hello, what's your Name:"
+# name = gets.chomp
+# puts "Hello, " + name
+# if name == "Penguin"
+#   puts "That can't be right? right?"
+# else
+#   puts "Awesome name!"
+# end
+
+# boottles = 99
+# until boottles = 2
+# while
+#   puts boottles + "of beer " + "On the wall"
+#
+#   boottles = boottles -7
 # end
