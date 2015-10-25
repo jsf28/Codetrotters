@@ -140,10 +140,10 @@
 #   puts "Awesome name!"
 # end
 
-# boottles = 99
-# until boottles = 2
-# while
-#   puts boottles + "of beer " + "On the wall"
-#
-#   boottles = boottles -7
-# end
+boottles = 99
+until boottles = 2
+while
+  puts boottles + "of beer " + "On the wall"
+
+  boottles = boottles -7
+end
