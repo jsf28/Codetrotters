@@ -140,10 +140,33 @@
 #   puts "Awesome name!"
 # end
 
-boottles = 99
-until boottles = 2
-while
-  puts boottles + "of beer " + "On the wall"
+# boottles = 99
+#   puts boottles "of beer " + "On the wall"
+#
+# line_width = 60
+# puts "Deaf Grandma".center(line_width)
+# puts "=" * line_width
+# puts "Talk to your Grandma!"
+# talk = gets.chomp
+# if  talk == "hello".upcase
+#   puts "NOT SINCE, 1942!"
+# else
+#   puts "HUH, SPEAK UP?"
+# end
 
-  boottles = boottles -7
-end
+#
+loop do
+  talk = gets.chomp
+  puts "HUH, SPEAK UP?"
+  if  talk == "hello".upcase
+  puts "NOT SINCE, 1942!"
+
+# input = gets.chomp
+#   puts "HUH"
+#   input = gets.chomp
+# if input == "hello".upcase
+#   puts "NOT SINCE , 1942"
+#   while input.downcase != 'goo'
+# end
+# puts "Thank you for your coperation."
+# end
