@@ -178,7 +178,7 @@ if talk == "hello".upcase
 else
   puts "HUH, SPEAK UP?"
 end
-if talk.downcase = "goodbye"
+if talk.downcase == "goodbye"
   break
 end
 end
