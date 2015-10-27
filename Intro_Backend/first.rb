@@ -155,18 +155,24 @@
 # end
 
 #
+line_width = 60
+puts "Deaf Grandma".center(line_width)
+puts "=" * line_width
+puts "Talk to your Grandma!"
 loop do
-  talk = gets.chomp
-  puts "HUH, SPEAK UP?"
-  if  talk == "hello".upcase
+talk = gets.chomp
+if  talk == "hello".upcase
   puts "NOT SINCE, 1942!"
-
-# input = gets.chomp
-#   puts "HUH"
-#   input = gets.chomp
-# if input == "hello".upcase
-#   puts "NOT SINCE , 1942"
-#   while input.downcase != 'goo'
-# end
-# puts "Thank you for your coperation."
-# end
+else
+  puts "HUH, SPEAK UP?"
+if talk.downcase == 'bye'
+   break
+if  talk == "hello".upcase
+  puts "NOT SINCE, 1942!"
+else
+  puts "HUH, SPEAK UP?"
+end
+end
+end
+end
+puts "FIN"
