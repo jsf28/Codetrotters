@@ -155,24 +155,30 @@
 # end
 
 #
-line_width = 60
-puts "Deaf Grandma".center(line_width)
-puts "=" * line_width
-puts "Talk to your Grandma!"
+# line_width = 60
+# puts "Deaf Grandma".center(line_width)
+# puts "=" * line_width
+# puts "Talk to your Grandma!"
+# loop do
+# talk = gets.chomp
+# if  talk == "hello".upcase
+#   puts "NOT SINCE, 1942!"
+# else
+#   puts "HUH, SPEAK UP?"
+# if talk == "goodbye".downcase
+#     break
+# end
+# end
+# end
+# puts "END OF PROGRAM"
 loop do
 talk = gets.chomp
-if  talk == "hello".upcase
-  puts "NOT SINCE, 1942!"
-else
-  puts "HUH, SPEAK UP?"
-if talk.downcase == 'bye'
-   break
-if  talk == "hello".upcase
+if talk == "hello".upcase
   puts "NOT SINCE, 1942!"
 else
   puts "HUH, SPEAK UP?"
 end
+if talk.downcase = "goodbye"
+  break
 end
 end
-end
-puts "FIN"
