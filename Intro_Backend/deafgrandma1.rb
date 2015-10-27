@@ -4,7 +4,7 @@ puts "=" * line_width
 puts "Talk to your Grandma!"
 loop do
 talk = gets.chomp
-if talk == "goodbye".downcase
+if talk == "goodbye".upcase
   break
 end
 if  talk == "hello".upcase
