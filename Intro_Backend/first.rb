@@ -53,7 +53,7 @@
 # var1=1
 # puts var1
 # puts var2
-#
+# #
 # puts 7 .to_f
 # puts "15".to_f
 # puts "99.99".to_i
@@ -171,14 +171,75 @@
 # end
 # end
 # puts "END OF PROGRAM"
-loop do
-talk = gets.chomp
-if talk == "hello".upcase
-  puts "NOT SINCE, 1942!"
-else
-  puts "HUH, SPEAK UP?"
+
+
+# goodbye_min=3
+# goodbye_counter=0
+# line_width = 60
+# puts "Deaf Grandma".center(line_width)
+# puts "=" * line_width
+# puts "Talk to your Grandma!"
+# loop do
+# talk = gets.chomp
+#
+# if talk == "goodbye".upcase
+#   puts "GOODYBYE"
+#   goodbye_counter += 1
+#
+#   if goodbye_counter == goodbye_min
+#     break
+#   end
+# end
+# if  talk == "hello".upcase
+#   puts "NOT SINCE, 1942!"
+# else
+#   puts "HUH, SPEAK UP?"
+# end
+# end
+# puts "END OF PROGRAM"
+# goodbye_min = 3
+# goodbye_counter = 0
+# line_width = 60
+# puts "Deaf Grandma".center(line_width)
+# puts "=" * line_width
+# puts "Talk to your Grandma!"
+# loop do
+# print "YOU: "
+# talk = gets.chomp
+# if talk == "goodbye".upcase
+#   if goodbye_counter == goodbye_min
+#   break
+# end
+# print "GRADMA: "
+# if  talk == "hello".upcase
+#   puts "NOT SINCE, 1942!"
+# else
+#   puts "HUH, SPEAK UP?"
+# end
+# end
+# end
+# puts "END OF PROGRAM"
+
+prompt  = "Donde vives: "
+puts prompt
+number1 = gets.chomp.to_s
+prompt  = "Color de piel: "
+puts prompt
+number2 = gets.chomp.to_s
+prompt  = "Religion: "
+puts prompt
+number3 = gets.chomp.to_s
+if prompt == "end"
 end
-if talk.downcase == "goodbye"
-  break
-end
-end
+puts [number1, number2, number3].unique
+#
+# prompt  = "Donde vives: "
+# puts prompt
+# number1 = gets.chomp.to_s
+# prompt  = "Color de piel: "
+# puts prompt
+# number2 = gets.chomp.to_s
+# prompt  = "Religion: "
+# puts prompt
+# number3 = gets.chomp.to_s
+# puts [number1, number2, number3].length.to_s
