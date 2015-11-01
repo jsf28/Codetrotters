@@ -18,7 +18,6 @@ if  talk == "hello".upcase
   puts "NOT SINCE, 1942!"
 else
   puts "HUH, SPEAK UP?"
-
 end
 end
 puts "END OF PROGRAM"
