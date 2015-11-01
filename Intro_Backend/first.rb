@@ -1,15 +1,29 @@
-# puts 1.0 + 2.0
-# puts 2.0 * 3.0
-# puts 5.0 - 8.0
-# puts 9.0 / 2.0
-#
-# puts 1 + 2
-# puts 2 * 3
-# puts 5 - 8
-# puts 9 / 2
-#
-# puts 9 % 2
-#
+goodbye_counter = 0
+goodbye_min = 3
+line_width = 60
+year = 1942
+puts "Deaf Grandma".center(line_width)
+puts "=" * line_width
+puts "Talk to your Grandma!"
+loop do
+print "YOU: "
+talk = gets.chomp
+if talk == "goodbye".upcase
+  goodbye_counter += 1
+if goodbye_counter == goodbye_min
+  break
+end
+end
+print "GRADMA: "
+if  talk == "hello".upcase
+  puts "NOT SINCE, " + (year).to_s
+  year -= 1
+else
+  puts "HUH, SPEAK UP?"
+end
+end
+puts "END OF PROGRAM"
+
 # puts (360/7)+1
 #
 # puts 365*24
