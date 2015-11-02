@@ -1,10 +1,16 @@
-line_width = 60
-puts "Table of Contents 2".center(line_width)
-puts "=" * line_width
-puts "Write the title or the page than your looking for"
-answer = gets.chomp
-if answer == "get started" or "1"
-  puts "Chapter 1"
-else
-  puts "Rood"
+write_chapter = "Please enter Chapter Tittle: "
+write_page = "Please enter page number: "
+title_chapter = " "
+page_number = " "
+chapter_enter = [ ]
+page_enter  = [ ]
+loop do
+puts write_chapter
+if title_chapter = gets.chomp != ""
+  chapter_enter.push
+  puts write_page
+if page_number = gets.chomp != ""
+  page_enter.push
+end
+end
 end
