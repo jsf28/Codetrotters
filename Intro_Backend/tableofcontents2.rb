@@ -1,3 +1,6 @@
+line_width = 80
+puts "Table of Contents 2".center(line_width)
+puts "=" * line_width
 write_chapter = "Please enter Chapter Tittle: "
 write_page = "Please enter page number: "
 title_chapter = " "
