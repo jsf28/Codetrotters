@@ -9,10 +9,10 @@ chapter_enter = [ ]
 page_enter  = [ ]
 loop do
 puts write_chapter
-if title_chapter = gets.chomp != ""
+if title_chapter = gets.chomp
   chapter_enter.push
   puts write_page
-if page_number = gets.chomp != ""
+if page_number = gets.chomp
   page_enter.push
 end
 end
